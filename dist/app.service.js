@@ -59,7 +59,7 @@ let AppService = class AppService {
         list.forEach((tx) => {
             logger.log(`Transaction, id: ${tx.id} 🍎 amount: ${tx.amount}`);
         });
-        logger.log(`Returning ${list.length} transactions for batch ${batchId}}\n\n`);
+        logger.log(`... Returning ${list.length} transactions for batch ${batchId}}\n\n`);
         return new custom_response_1.CustomResponse(200, `Returning ${list.length} transactions for batch ${batchId}`, list);
     }
 };
