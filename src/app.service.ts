@@ -30,7 +30,7 @@ export class AppService {
 
 
     //generate random number of transactions
-    let count = randomInt(16);
+    let count = randomInt(25);
     if (count == 0) {
       count = 1;
     }
